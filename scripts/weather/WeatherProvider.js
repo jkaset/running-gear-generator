@@ -15,3 +15,12 @@ export const getWeather = (zipcode) => {
 export const useWeather = () => weather.slice()
 
 //json-server -p 8088 -w notes.json
+
+//new... creating weather render card
+// export const weatherRenderCard = (weatherObj) => {
+//   return `
+    
+//       <p>${weatherObj.main.feels_like}</p>
+    
+//   `
+// }

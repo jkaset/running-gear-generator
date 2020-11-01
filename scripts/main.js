@@ -5,10 +5,10 @@ import { ZipFormComponent } from "./weather/Weather.js"
 
 import "./temperature/TempForm.js"
 import "./temperature/TempList.js"
-import {dispatchWeather} from "./weather/WeatherList.js"
+import "./weather/WeatherList.js"
 
 TempFormComponent()
 getWeather(37210)
 useWeather()
 ZipFormComponent()
-dispatchWeather()
+
