@@ -6,7 +6,6 @@ const eventHub = document.querySelector("#container")
 
 const render = () => {
   contentTarget.innerHTML = `
-  
     <h2>Do I need a jacket?</h2>
     
         <label for="temp">Current local temperature:</label>
@@ -39,10 +38,4 @@ eventHub.addEventListener("click", clickEvent => {
   }
 
 })
-
-
-  
-
-
- //console.log("change in dropdown")
   
