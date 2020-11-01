@@ -3,13 +3,14 @@ import { getWeather, useWeather }  from "./WeatherProvider.js"
 const eventHub = document.querySelector("#container")
 
 eventHub.addEventListener("zipSubmitted", event => {
-  let zips = []
-  const zip = event.detail.zipEntered
-  console.log(zip)
-  getWeather(zip)
+  console.log("i hear")
+  const zipEntered = event.detail.zipEntered.value
+  //console.log(zipEntered)
+  getWeather(zipEntered)
   
-  .then(() => 
-    zips = useWeather())
-  
-  
+//   .then(() => 
+//     zips = useWeather())
 })
+
+
+    
