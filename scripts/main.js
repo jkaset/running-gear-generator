@@ -1,2 +1,3 @@
-console.log("Welcome to the main module")
-console.log("Welcome to the main module")
+import { TempFormComponent } from "./temperature/TempForm.js"
+TempFormComponent()
+
