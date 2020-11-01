@@ -13,3 +13,26 @@ eventHub.addEventListener("zipSubmitted", event => {
   
   
 })
+
+//make html card for render weather
+// const weatherCard = (weather) => {
+//   return `
+    
+//       <p>${weather.name}</p>
+    
+//   `
+// }
+
+// export const weatherList = () => {
+  
+//   getWeather().then( 
+//     () => {
+//       const weatherContainer = document.querySelector(".renderGear")
+//       const weatherArray = useWeather() 
+//       let buildWeatherList = ""
+//       for (const weather of weatherArray) {
+//         buildWeatherList += weatherCard(weather)
+//     }
+//   weatherContainer.innerHTML += `${buildWeatherList}`
+// })
+// }
