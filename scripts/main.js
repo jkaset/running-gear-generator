@@ -6,6 +6,7 @@ import { ZipFormComponent } from "./weather/Weather.js"
 import "./temperature/TempForm.js"
 import "./temperature/TempList.js"
 
-getWeather(37207)
 
 ZipFormComponent()
+// getWeather(32571)
+//     .then(taco => {console.log(taco)})
