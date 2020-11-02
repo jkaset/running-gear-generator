@@ -5,6 +5,7 @@ import { ZipFormComponent } from "./weather/Weather.js"
 
 import "./temperature/TempForm.js"
 import "./temperature/TempList.js"
+import "./jacket/jacket.js"
 
 
 ZipFormComponent()
