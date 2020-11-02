@@ -8,7 +8,8 @@ import "./temperature/TempList.js"
 import "./weather/WeatherList.js"
 
 TempFormComponent()
-getWeather(37210)
+//console.log(getWeather(37207))
+getWeather(37206)
 useWeather()
 ZipFormComponent()
 
