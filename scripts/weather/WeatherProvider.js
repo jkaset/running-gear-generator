@@ -8,7 +8,7 @@ export const getWeather = (zipcode) => {
   .then(response => response.json())
   .then(parsedResponse => {
     //console.log(parsedResponse)
-    return parsedResponse
+    weather = parsedResponse
   })
 }
 
