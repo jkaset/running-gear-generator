@@ -11,7 +11,12 @@ eventHub.addEventListener("zipSubmitted", event => {
   .then(() => {
     const zips = useWeather()
     console.log(zips)
-    zips.main.feels-like
+    const contentTarget = document.querySelector(".renderGear")
+    if (zips.main.temp >= 65) {
+      contentTarget.innerHTML = `<p>nooo</p>`
+    } else if (zips.main.temp < 65) {
+      contentTarget.innerHTML = `<p>yesss</p>`
+    }
 })
 })
 
