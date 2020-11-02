@@ -12,6 +12,8 @@ export const getWeather = (zipcode) => {
   })
 }
 
+
+
 // export const useWeather = () => {
 //   return weather.slice()
 // }
