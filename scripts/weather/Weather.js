@@ -18,11 +18,13 @@ export const ZipFormComponent = () => {
 
 eventHub.addEventListener("click", event => {
   if (event.target.id === "submitZip") {
+    // console.log("I heard a zipcode click!")
     const zipSubmitted = document.querySelector("#zipcode").value 
     const zipEvent = new CustomEvent("zipSubmitted", {
       detail: {
           zipEntered: zipSubmitted
       }
   })
-  eventHub.dispatchEvent(zipSubmitted)
+  eventHub.dispatchEvent(zipEvent)
+  ZipFormComponent()
 }})
