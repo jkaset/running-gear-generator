@@ -9,7 +9,7 @@ import "./weather/WeatherList.js"
 
 TempFormComponent()
 //console.log(getWeather(37207))
-getWeather()
+getWeather(37206)
 useWeather()
 ZipFormComponent()
 
